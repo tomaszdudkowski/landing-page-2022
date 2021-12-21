@@ -1,3 +1,9 @@
+* {
+    /* Remove whitespace */
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 1.125rem;
     margin: 0;
@@ -15,14 +21,29 @@ h2 {
     font-size: 2rem;
 }
 
+p {
+    margin-top: 0;
+}
+
 /* Layout */
 
 .container {
     width: 95%;
     max-width: 980px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 .columns {
     display: flex;
+}
+
+.col {
+    padding: 1em;
+    margin-top: 1.5em;
+}
+
+.col-bg {
+    color: #FFF;
+    background-color: darkslategrey;
 }
