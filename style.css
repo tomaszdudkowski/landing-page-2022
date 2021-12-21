@@ -28,9 +28,11 @@ p {
 /* Layout */
 
 .container {
+    box-sizing: border-box;
     width: 95%;
     max-width: 980px;
     margin: 0 auto;
+    padding-top: 1em;
     height: 100vh;
 }
 
