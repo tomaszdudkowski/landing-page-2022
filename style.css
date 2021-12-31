@@ -57,20 +57,23 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 nav li {
-  
+  margin: 0 1em;
 }
 
 nav a {
-
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
 }
 
 nav a:hover,
 nav a:focus {
-
+  color: #fff;
 }
 
 .columns {
