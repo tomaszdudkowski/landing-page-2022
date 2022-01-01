@@ -53,6 +53,11 @@ p {
   }
 }
 
+.container-infinity {
+  height: auto;
+  padding-bottom: 2.5em;
+}
+
 .columns {
   display: flex;
   justify-content: space-evenly;
@@ -148,4 +153,38 @@ nav a {
 nav a:hover,
 nav a:focus {
   color: #fff;
+}
+
+/* Articles */
+
+.article-title {
+
+}
+
+.article-photo {
+
+}
+
+.article-info {
+
+}
+
+.article-body {
+
+}
+
+/* Article - Featured */
+
+.article-featured {
+
+}
+
+/* Article - Recent */
+
+.article-recent {
+
+}
+
+.article-recent-photo {
+
 }
