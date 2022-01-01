@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
+
   <body>
-    <header class="bg-dark">
-      <div class="container">
-        <div class="nav-container">
-          <h1>Responsive Web Designe</h1>
+    <header>
+      <div class="container container-navigation">
+        <div class="container nav-container">
+          <h1 class="nav-title">Responsive Web Designe</h1>
 
           <nav>
             <ul>
@@ -25,13 +33,20 @@
             </ul>
           </nav>
         </div>
+      </div>
+      <div class="container container-main"></div>
+    </header>
 
-        <img class="img-banner" src="image/city-night-scaled.jpg" alt="Banner Image" />
-
+    <main>
+      <div class="container container-infinity">
         <div class="columns">
           <article class="article-featured">
             <h2 class="article-title">Title</h2>
-            <img src="" alt="">
+            <img
+              class="article-photo"
+              src="image/301bd9132949499.61b302a5757e4.jpg"
+              alt=""
+            />
             <p class="article-info"></p>
             <p class="article-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
@@ -41,63 +56,69 @@
             </p>
             <a href="#" class="article-read-more"></a>
           </article>
-      </div>
-    </header>
-
-    <main>
-      <div class="container">
-        <h1>Main section</h1>
-        <div class="columns">
-          <div class="col col-bg col-4">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-              maiores explicabo accusamus quibusdam assumenda. Autem nihil eos
-              et dicta porro! Earum libero ipsa labore eum facilis iusto quas
-              pariatur magni. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Quas, distinctio blanditiis quasi veritatis omnis cupiditate
-              earum maxime, minus iure enim odit explicabo, labore ratione
-              facere ea quae quos dolorem eum. Autem nihil eos et dicta porro!
-              Earum libero ipsa labore eum facilis iusto quas pariatur magni.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              distinctio blanditiis quasi veritatis omnis cupiditate earum
-              maxime, minus iure enim odit explicabo, labore ratione facere ea
-              quae quos dolorem eum.
-            </p>
-          </div>
         </div>
 
         <div class="columns">
-          <div class="col col-1">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-              maiores explicabo accusamus quibusdam assumenda. Autem nihil eos
-              et dicta porro! Earum libero ipsa labore eum facilis iusto quas
-              pariatur magni.
-            </p>
-          </div>
+          <article class="article-recent">
+            <div>
+              <img
+                class="article-photo article-recent-photo"
+                src="image/d4e5f2132949499.61b302a576087.jpg"
+                alt=""
+              />
+              <p class="article-info"></p>
+            </div>
+            <div class="article-recent-body">
+              <h2 class="article-title">Title</h2>
+              <p class="article-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente maiores explicabo accusamus quibusdam assumenda. Autem
+                nihil eos et dicta porro! Earum libero ipsa labore eum facilis
+                iusto quas pariatur magni.
+              </p>
+            </div>
+          </article>
 
-          <div class="col col-2 col-bg">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-              maiores explicabo accusamus quibusdam assumenda. Autem nihil eos
-              et dicta porro! Earum libero ipsa labore eum facilis iusto quas
-              pariatur magni.
-            </p>
-          </div>
-
-          <div class="col col-1">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-              maiores explicabo accusamus quibusdam assumenda. Autem nihil eos
-              et dicta porro! Earum libero ipsa labore eum facilis iusto quas
-              pariatur magni.
-            </p>
-          </div>
+          <article class="article-recent">
+            <div>
+              <img
+                class="article-photo article-recent-photo"
+                src="image/301bd9132949499.61b302a5757e4.jpg"
+                alt=""
+              />
+              <p class="article-info"></p>
+            </div>
+            <div class="article-recent-body">
+              <h2 class="article-title">Title</h2>
+              <p class="article-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente maiores explicabo accusamus quibusdam assumenda. Autem
+                nihil eos et dicta porro! Earum libero ipsa labore eum facilis
+                iusto quas pariatur magni.
+              </p>
+            </div>
+          </article>
         </div>
+
+        <aside class="sidebar">
+          <div class="sidebar-widget">
+            <h2 class="widget-title">About me</h2>
+            <img
+              class="widget-image"
+              src="image/497dfa128553217.61588493ac13c.jpg"
+              alt=""
+            />
+            <p class="widget-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam perferendis aliquam fugiat provident? Laudantium modi
+              soluta totam animi maxime eaque velit suscipit cumque doloribus
+              minus! Perferendis nobis vel accusamus enim.
+            </p>
+          </div>
+        </aside>
       </div>
     </main>
+
+    <footer></footer>
   </body>
 </html>
