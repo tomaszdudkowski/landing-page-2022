@@ -43,7 +43,7 @@ p {
 
 .hero::before {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.5)), url("/image/7d5574129618065.616eeb838676c.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.5)), url("./image/7d5574129618065.616eeb838676c.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
