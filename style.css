@@ -153,6 +153,9 @@ nav {
 
 .nav-title {
   font-family: 'Lora', sans-serfi;
+  font-weight: 700;
+  color: #143774;
+  margin: 0;
 }
 
 nav ul {
@@ -175,7 +178,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #707070;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 nav a:hover,
@@ -185,8 +188,13 @@ nav a:focus {
 
 /* Articles */
 
-.article-title {
+.article-featured {
 
+}
+
+.article-title {
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5rem;
 }
 
 .article-photo {
@@ -198,9 +206,25 @@ nav a:focus {
 }
 
 .article-body {
+  color: #707070;
+  font-weight: 200;
+  font-size: 1.125rem;
 
 }
 
+.article-read-more {
+  font-size: 0.875rem;
+  color: #1792D2;
+  text-decoration: none;
+}
+
+.article-recent {
+  
+}
+
+.article-recent-photo {
+  width: 50%;
+}
 
 /* Sidebar */
 
@@ -222,20 +246,4 @@ nav a:focus {
 
 .widget-body {
 
-}
-
-/* Article - Featured */
-
-.article-featured {
-
-}
-
-/* Article - Recent */
-
-.article-recent {
-
-}
-
-.article-recent-photo {
-  width: 50%;
 }
