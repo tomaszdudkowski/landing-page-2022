@@ -307,3 +307,34 @@ nav a:focus {
   font-size: 1.125rem;
   text-align: justify;
 }
+
+footer {
+  color: #FFF;
+  background-color: #143774;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  padding-bottom: .3em;
+}
+
+footer h3 {
+  font-family: 'Lora', sans-serif;
+  padding-bottom: .6em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.footer-author {
+  color: #FFF;
+  font-weight: 300;
+  font-size: .875rem;
+  padding-top: 2em;
+}
