@@ -236,7 +236,8 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  color: #8f5858;
+  color: #143774;
+  text-decoration: underline;
 }
 
 /* Articles */
@@ -267,10 +268,12 @@ nav a:focus {
   font-weight: 200;
   font-size: 1.125rem;
   text-align: justify;
+  padding-bottom: 1em;
 }
 
 .article-read-more {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 700;
   color: #1792D2;
   text-decoration: none;
 }
@@ -280,12 +283,29 @@ nav a:focus {
   text-decoration: underline;
 }
 
+.article-recent {
+  border-bottom: #707070 1px solid;
+  padding: 1em;
+}
+
 .article-recent-photo {
-  width: 90%;
+  width: 91%;
 }
 
 @media (max-width: 800px) {
   .article-recent-photo {
+    width: 100%;
+  }
+}
+
+.article-recent-portrait-photo {
+  width: 354px;
+  object-fit: cover;
+  padding-right: 2em;
+}
+
+@media (max-width: 800px) {
+  .article-recent-portrait-photo {
     width: 100%;
   }
 }
@@ -307,6 +327,8 @@ nav a:focus {
   font-size: 1.125rem;
   text-align: justify;
 }
+
+/* Footer */
 
 footer {
   color: #FFF;
@@ -330,6 +352,12 @@ footer h3 {
 footer a {
   text-decoration: none;
   color: #707070;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .footer-author {
