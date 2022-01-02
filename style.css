@@ -85,6 +85,12 @@ p {
   display: flex;
 }
 
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
 .columns {
   display: flex;
   justify-content: space-evenly;
@@ -231,23 +237,17 @@ nav a:focus {
   text-decoration: underline;
 }
 
-.article-recent-body {
-  
-}
-
 .article-recent-photo {
   width: 90%;
 }
 
+@media (max-width: 800px) {
+  .article-recent-photo {
+    width: 100%;
+  }
+}
+
 /* Sidebar */
-
-.sidebar {
-
-}
-
-.sidebar-widget {
-
-}
 
 .widget-title {
   font-family: 'Lora', sans-serif;
