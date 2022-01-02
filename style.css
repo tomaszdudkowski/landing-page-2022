@@ -298,12 +298,6 @@ nav a:focus {
   }
 }
 
-.article-recent-portrait-photo {
-  width: 354px;
-  object-fit: cover;
-  padding-right: 2em;
-}
-
 @media (max-width: 800px) {
   .article-recent-portrait-photo {
     width: 100%;
