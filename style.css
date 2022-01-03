@@ -245,6 +245,7 @@ nav a:focus {
 .article-title {
   font-family: 'Lora', sans-serif;
   font-size: 1.5rem;
+  padding-bottom: .3em;
 }
 
 .article-featured-title {
@@ -286,6 +287,7 @@ nav a:focus {
 .article-recent {
   border-bottom: #707070 1px solid;
   padding: 1em;
+  justify-content: space-between;
 }
 
 .article-recent-photo {
@@ -307,8 +309,10 @@ nav a:focus {
 /* Sidebar */
 
 .widget-title {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: #143774;
   font-size: 2rem;
+  padding-bottom: .3em;
 }
 
 .widget-image {
